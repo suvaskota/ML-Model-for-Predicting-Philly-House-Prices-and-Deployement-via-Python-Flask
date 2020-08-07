@@ -1,0 +1,32 @@
+body {
+    position: absolute;
+    top: 100px;
+    left: 175px; 
+    height: 800x;
+    width: 1000px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url("https://rb.gy/ptttpu");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(35px);
+    padding: 12px 12px;
+    vertical-align: middle;
+    color: white
+}
+
+   #answer {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.field{
+    
+    display: block;
+    text-align: center;
+    margin : 0 auto;
+    padding: 10px 20px;
+    margin-top: 25px;
+    
+}
+

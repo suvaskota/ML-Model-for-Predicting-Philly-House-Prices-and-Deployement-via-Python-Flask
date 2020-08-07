@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Philly Real Estate Predictor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+    <link href="app.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <h1 id="test"></h1> -->
+
+    <h1>Welcome to the Philadelphia House Price Predictor!!</h1>
+    
+    <input id = "year" class="field" placeholder="Year"></input>
+    <input id = "sqFt" class="field" placeholder="Square Feet"></input>
+
+    <input id = "bathrooms" class="field" placeholder="# of Bathrooms"></input>
+    <input id = "bedrooms" class="field" placeholder="# of Bedrooms"></input>
+
+    <p id = "answer">Fill all the fields above and click the button to see estimated price!</p>
+    <button id="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price!</button>
+    
+
+  
+
+
+    <script src="app.js"></script>
+  </body>
+</html> 
